@@ -22,14 +22,20 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html
       lang="pt-BR"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <meta
+          name="google-site-verification"
+          content="jlq6H59qg6Odky3EgHhyJVTD-1A2LzlzpLcAeXmxsWY"
+        />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
