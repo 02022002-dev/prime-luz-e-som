@@ -11,9 +11,10 @@ type GalleryItem = {
 };
 
 const CONTACT = {
-  whatsappNumber: "5511978396661", // troque pelo número real com DDI/DDC, sem espaços e sem símbolos
-  instagramUrl: "https://www.instagram.com/primeluzesomjundiai?igsh=aWpmNXJzbnlsa3E2&utm_source=qr", // troque pelo seu @ real
-  email: "primeluzsom@gmail.com", // troque pelo seu e-mail real
+  whatsappNumber: "5511978396661",
+  instagramUrl:
+    "https://www.instagram.com/primeluzesomjundiai?igsh=aWpmNXJzbnlsa3E2&utm_source=qr",
+  email: "primeluzsom@gmail.com",
 };
 
 const DEFAULT_WHATSAPP_MESSAGE =
@@ -50,7 +51,6 @@ const rentalItems = [
   "Mesa de som",
   "Caixa de som",
   "Praticáveis com carpete (palco)",
-].filter(Boolean);
 ];
 
 const serviceCategories = [
@@ -83,7 +83,9 @@ function buildWhatsAppLink(message: string) {
 }
 
 export default function HomePage() {
-  const [selectedGallery, setSelectedGallery] = useState<GalleryItem | null>(null);
+  const [selectedGallery, setSelectedGallery] = useState<GalleryItem | null>(
+    null
+  );
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const allEquipmentCards = useMemo(
@@ -195,8 +197,8 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-200">
-              Atuando com soluções em sonorização, iluminação
-              cênica e estrutura para eventos sociais, corporativos e assembleias.
+              Atuando com soluções em sonorização, iluminação cênica e estrutura
+              para eventos sociais, corporativos e assembleias.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -256,8 +258,8 @@ export default function HomePage() {
               Com mais de 40 anos de experiência no mercado, a Prime Luz & Som
               atua com excelência em sonorização, iluminação cênica e estrutura
               para eventos. Ao longo de sua trajetória, construiu credibilidade
-              atendendo eventos corporativos, sociais e assembleias de condomínio,
-              sempre com foco em qualidade, organização e resultado.
+              atendendo eventos corporativos, sociais e assembleias de
+              condomínio, sempre com foco em qualidade, organização e resultado.
             </p>
             <p className="mt-4 text-base leading-8 text-zinc-600">
               Nosso compromisso é entregar soluções com acabamento profissional,
@@ -307,8 +309,8 @@ export default function HomePage() {
               Soluções pensadas para diferentes tipos de evento
             </h2>
             <p className="mt-4 text-base leading-8 text-zinc-300">
-              Organização clara dos principais nichos atendidos pela empresa,
-              com estrutura profissional para apresentações, reuniões e eventos.
+              Organização clara dos principais nichos atendidos pela empresa, com
+              estrutura profissional para apresentações, reuniões e eventos.
             </p>
           </div>
 
@@ -345,17 +347,20 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="equipamentos" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <section
+        id="equipamentos"
+        className="mx-auto max-w-7xl px-6 py-20 lg:px-8"
+      >
         <div className="max-w-2xl">
           <span className="text-sm font-semibold uppercase tracking-[0.2em] text-zinc-500">
             Equipamentos
           </span>
           <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
-            
+            Equipamentos para locação e composição do seu evento
           </h2>
           <p className="mt-4 text-base leading-8 text-zinc-600">
-            
-            
+            Confira alguns dos equipamentos disponíveis. Em itens com galeria,
+            você pode clicar para visualizar mais imagens.
           </p>
         </div>
 
