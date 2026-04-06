@@ -49,7 +49,7 @@ const rentalItems = [
   "Backdrop",
   "Mesa de som",
   "Caixa de som",
-  ,
+  "",
   "Praticáveis com carpete (palco)",
 ];
 
