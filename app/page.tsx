@@ -48,8 +48,7 @@ const rentalItems = [
   "Totem de LED",
   "Backdrop",
   "Mesa de som",
-  "Caixa de som",
-  "",
+  "Caixa de som",,
   "Praticáveis com carpete (palco)",
 ];
 
