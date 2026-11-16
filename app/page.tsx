@@ -189,7 +189,7 @@ export default function HomePage() {
         <div className="relative mx-auto max-w-7xl px-6 py-24 sm:py-28 lg:px-8">
           <div className="max-w-3xl">
             <span className="mb-4 inline-block rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white backdrop-blur">
-              Mais de 40 anos de experiência em sonorização e iluminação cênica
+              Equipe com mais de 40 anos de experiência familiar em som e luz
             </span>
 
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
@@ -255,11 +255,11 @@ export default function HomePage() {
               Tradição, confiança e excelência para cada evento.
             </h2>
             <p className="mt-6 text-base leading-8 text-zinc-600">
-              Com mais de 40 anos de experiência no mercado, a Prime Luz & Som
-              atua com excelência em sonorização, iluminação cênica e estrutura
-              para eventos. Ao longo de sua trajetória, construiu credibilidade
-              atendendo eventos corporativos, sociais e assembleias de
-              condomínio, sempre com foco em qualidade, organização e resultado.
+              A Prime Luz & Som nasceu da experiência de uma família com mais de
+              40 anos no mercado de eventos. Atuamos com excelência em
+              sonorização, iluminação cênica e estrutura para eventos
+              corporativos, sociais e assembleias de condomínio, sempre com foco
+              em qualidade, organização e resultado.
             </p>
             <p className="mt-4 text-base leading-8 text-zinc-600">
               Nosso compromisso é entregar soluções com acabamento profissional,
@@ -467,8 +467,8 @@ export default function HomePage() {
                 Prime Luz & Som
               </span>
               <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
-                Mais de 40 anos entregando estrutura, confiança e presença para
-                eventos que exigem qualidade.
+                Experiência de família a serviço de eventos que exigem
+                estrutura, confiança e qualidade.
               </h2>
               <p className="mt-4 text-base leading-8 text-zinc-300">
                 Sonorização, iluminação cênica, painéis, backdrop, projeção,
