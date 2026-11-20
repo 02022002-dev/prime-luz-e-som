@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Prime Luz & Som | Eventos e Locações",
-  description: "Prime Luz & Som | Eventos e Locações",
+  title: "ALTIS | Áudio, Luz, Tecnologia, Imagem e Som",
+  description: "ALTIS | Locação de som, iluminação cênica e estrutura para eventos corporativos e sociais em Jundiaí e região.",
   icons: {
     icon: "/favicon.png",
   },

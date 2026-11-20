@@ -13,12 +13,12 @@ type GalleryItem = {
 const CONTACT = {
   whatsappNumber: "5511978396661",
   instagramUrl:
-    "https://www.instagram.com/primeluzesomjundiai?igsh=aWpmNXJzbnlsa3E2&utm_source=qr",
+    "https://www.instagram.com/altiseventos",
   email: "primeluzsom@gmail.com",
 };
 
 const DEFAULT_WHATSAPP_MESSAGE =
-  "Olá, vim pela Prime Luz & Som e gostaria de fazer um orçamento.";
+  "Olá, vim pela ALTIS e gostaria de fazer um orçamento.";
 
 const galleryItems: GalleryItem[] = [
   {
@@ -137,7 +137,7 @@ export default function HomePage() {
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-3 text-sm text-zinc-700 sm:flex-row sm:items-center sm:justify-between lg:px-8">
           <div className="flex flex-wrap items-center gap-4">
             <span className="font-semibold text-zinc-900">
-              Prime Luz & Som
+              ALTIS
             </span>
             <a
               href={buildWhatsAppLink(DEFAULT_WHATSAPP_MESSAGE)}
@@ -178,7 +178,7 @@ export default function HomePage() {
         <div className="absolute inset-0">
           <Image
             src="/images/hero.jpg"
-            alt="Evento profissional Prime Luz & Som"
+            alt="Evento profissional ALTIS"
             fill
             priority
             className="object-cover"
@@ -255,8 +255,9 @@ export default function HomePage() {
               Tradição, confiança e excelência para cada evento.
             </h2>
             <p className="mt-6 text-base leading-8 text-zinc-600">
-              A Prime Luz & Som nasceu da experiência de uma família com mais de
-              40 anos no mercado de eventos. Atuamos com excelência em
+              A ALTIS nasceu da experiência de uma família com mais de
+              40 anos no mercado de eventos. O nome resume o que entregamos:
+              Áudio, Luz, Tecnologia, Imagem e Som. Atuamos com excelência em
               sonorização, iluminação cênica e estrutura para eventos
               corporativos, sociais e assembleias de condomínio, sempre com foco
               em qualidade, organização e resultado.
@@ -290,7 +291,7 @@ export default function HomePage() {
           <div className="relative h-[320px] overflow-hidden rounded-3xl shadow-2xl">
             <Image
               src="/images/hero.jpg"
-              alt="Prime Luz & Som"
+              alt="ALTIS"
               fill
               className="object-cover"
             />
@@ -334,7 +335,7 @@ export default function HomePage() {
                   type="button"
                   onClick={() =>
                     openWhatsApp(
-                      `Olá, vim pela Prime Luz & Som e gostaria de solicitar um orçamento para ${category.title}.`
+                      `Olá, vim pela ALTIS e gostaria de solicitar um orçamento para ${category.title}.`
                     )
                   }
                   className="mt-8 rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-zinc-900 transition hover:opacity-90"
@@ -405,7 +406,7 @@ export default function HomePage() {
                     type="button"
                     onClick={() =>
                       openWhatsApp(
-                        `Olá, vim pela Prime Luz & Som e gostaria de solicitar um orçamento para ${card.title}.`
+                        `Olá, vim pela ALTIS e gostaria de solicitar um orçamento para ${card.title}.`
                       )
                     }
                     className="w-full rounded-2xl border border-zinc-300 px-4 py-3 text-sm font-semibold text-zinc-900 transition hover:bg-zinc-100"
@@ -446,7 +447,7 @@ export default function HomePage() {
                   type="button"
                   onClick={() =>
                     openWhatsApp(
-                      `Olá, vim pela Prime Luz & Som e gostaria de solicitar um orçamento para locação de ${item}.`
+                      `Olá, vim pela ALTIS e gostaria de solicitar um orçamento para locação de ${item}.`
                     )
                   }
                   className="mt-4 rounded-xl bg-zinc-900 px-4 py-2 text-sm font-semibold text-white transition hover:opacity-90"
@@ -464,7 +465,7 @@ export default function HomePage() {
           <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
             <div className="max-w-3xl">
               <span className="text-sm font-semibold uppercase tracking-[0.2em] text-zinc-400">
-                Prime Luz & Som
+                ALTIS
               </span>
               <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
                 Experiência de família a serviço de eventos que exigem
@@ -581,7 +582,7 @@ export default function HomePage() {
                   type="button"
                   onClick={() =>
                     openWhatsApp(
-                      `Olá, vim pela Prime Luz & Som e gostaria de solicitar um orçamento para ${selectedGallery.title}.`
+                      `Olá, vim pela ALTIS e gostaria de solicitar um orçamento para ${selectedGallery.title}.`
                     )
                   }
                   className="mt-6 w-full rounded-2xl bg-zinc-900 px-5 py-3 text-sm font-semibold text-white transition hover:opacity-90"
