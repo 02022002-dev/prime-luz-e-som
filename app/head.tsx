@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>Prime Luz & Som | Eventos e Locações</title>
+      <title>ALTIS | Áudio, Luz, Tecnologia, Imagem e Som</title>
       <link rel="icon" href="/favicon.png" />
     </>
   );

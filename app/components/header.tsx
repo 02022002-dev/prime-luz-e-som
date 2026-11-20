@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 w-full bg-black text-white z-50 p-4 flex justify-between">
       <div>
-        PRIME <span style={{ color: "gold" }}>LUZ & SOM</span>
+        ALTIS <span style={{ color: "gold" }}>EVENTOS</span>
       </div>
 
       <div style={{ display: "flex", gap: "20px" }}>
