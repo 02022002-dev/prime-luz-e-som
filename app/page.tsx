@@ -14,7 +14,7 @@ const CONTACT = {
   whatsappNumber: "5511978396661",
   instagramUrl:
     "https://www.instagram.com/altiseventos",
-  email: "primeluzsom@gmail.com",
+  email: "altiseventosjundiai@gmail.com",
 };
 
 const DEFAULT_WHATSAPP_MESSAGE =
